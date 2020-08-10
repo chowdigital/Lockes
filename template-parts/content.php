@@ -10,28 +10,32 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				wordpress_bootstrap_starter_theme_posted_on();
-				wordpress_bootstrap_starter_theme_posted_by();
+
+<header class="entry-header">
+<div class="row post-header">
+	<div class="col-12 col-md-8">
+			<?php
+			if ( is_singular() ) :
+				the_title( '<h1 class="">', '</h1>' );
+			else :
+				the_title( '<h2 class=""><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			endif;
+
+			if ( 'post' === get_post_type() ) :
 				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+				
+			<?php endif; ?>
+		</div>
+	<div class="col-12 col-md-4">
+		<?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid z-depth-1')); ?>
+	</div>
+	</div>
+</header><!-- .entry-header -->
 
-	<?php wordpress_bootstrap_starter_theme_post_thumbnail(); ?>
-
-	<div class="entry-content">
+<div class="container my-5 py-5 z-depth-1">
+	
+	<div class="entry-content px-md-5 mx-md-5">
 		<?php
 		the_content(
 			sprintf(
@@ -56,7 +60,7 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
+	</div> 
 	<footer class="entry-footer">
 		<?php wordpress_bootstrap_starter_theme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

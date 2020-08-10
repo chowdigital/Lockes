@@ -75,7 +75,7 @@
 				</form>
 
 				<div class="text-center text-md-left">
-					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+					<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();"> <i class="fas fa-paper-plane"></i> Send</a>
 				</div>
 				<div class="status"></div>
 			</div>
@@ -86,16 +86,16 @@
 </div>
 			<div class="col-sm-12 col-md-4">
 				<ul class="list-unstyled mb-0">
-					<li><i class="fas fa-map-marker-alt fa-2x"></i>
-						<p>01205 369477</p>
+					<li>
+					<h4><i class="fas fa-phone mt-4 fa-1.5x"></i> 01205 369477 </h4>
 					</li>
 
-					<li><i class="fas fa-phone mt-4 fa-2x"></i>
-						<p>07788 550074 </p>
+					<li>
+						<h4><i class="fas fa-phone mt-4 fa-1.5x"></i> 07788 550074 </h4>
 					</li>
 
-					<li><i class="fas fa-envelope mt-4 fa-2x"></i>
-						<p>contact@mdbootstrap.com</p>
+					<li>
+						<h4><i class="fas fa-envelope mt-4 fa-1.5x"></i> info@gatehousetraining.com</h4>
 					</li>
 				</ul>
 			</div>

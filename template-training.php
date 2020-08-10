@@ -36,7 +36,7 @@ $the_query = new WP_Query( 'cat=3&posts_per_page=24' );
        
        
         <p class="grey-text"><?php the_excerpt(); ?></p>
-        <a href="<?php echo get_permalink() ?>" class="mt-auto btn btn-info btn-rounded btn-md">Read more </a>
+        <a href="<?php echo get_permalink() ?>" class="mt-auto btn btn-blue btn-rounded btn-md"><i class="fa fa-info-circle aria-hidden="true"></i> More Information </a> 
     </div>
     <!--Grid column-->
 

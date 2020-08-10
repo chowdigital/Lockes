@@ -90,7 +90,7 @@ $the_query = new WP_Query( 'cat=3&posts_per_page=4' );
   <!--Grid row-->
   <div class="container text-center">
 
-  <button type="button" class="btn btn-blue btn-rounded">View all courses</button>
+  <a href="http://localhost:8888/gulp_s/training-courses/"><button type="button" class="btn btn-blue btn-rounded"><i class="fas fa-graduation-cap"></i>  View all courses</button></a>
 
 
 

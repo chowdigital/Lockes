@@ -63,7 +63,7 @@
             </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();"> <i class="fas fa-paper-plane"></i> Send</a>
             </div>
             <div class="status"></div>
         </div>
@@ -101,7 +101,7 @@
 
         <ul class="list-unstyled">
           <li>
-            07879 282820
+          <i class="fas fa-phone mt-4"></i> 07879 282820
           </li>
     
         </ul>
@@ -122,16 +122,16 @@
     <p class="">PE21 0PH</p>
 
 
-
+   
         <ul class="list-unstyled">
           <li>
-          01205 369477
+          <i class="fas fa-phone mt-4"></i> 01205 369477
           </li>
           <li>
-          07788 550074
+          <i class="fas fa-phone mt-4"></i> 07788 550074
           </li>
           <li>
-          info@gatehousetraining.com
+          <i class="fas fa-envelope mt-4"></i> info@gatehousetraining.com
           </li>
           
         </ul>
