@@ -1,16 +1,23 @@
-// Your custom styles
+// Settings for full height background
 html,
 body,
 #page,
 .view {
   height: 100%}
 
+  // Settings for navbar in edit mode
 body.logged-in, {
     
     nav {
-        margin-top:20px;
+        margin-top:32px;
     }
 }
+
+// change Navbar color on scroll 
+.top-nav-collapse {
+        background: #000!important;
+    }
+
 
 //remove at bottom of footer
 .page{
