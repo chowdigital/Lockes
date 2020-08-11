@@ -1,13 +1,21 @@
 // Your custom styles
-body{
-    //padding-top: 60px;
+html,
+body,
+#page,
+.view {
+  height: 100%}
 
+body.logged-in, {
+    
+    nav {
+        margin-top:20px;
+    }
 }
 
 //remove at bottom of footer
 .page{
     margin: 0;
-    padding-top:60px;
+    padding-top:0px;
 }
 .navbar-toggler {
     background-color: transparent !important;
@@ -110,3 +118,7 @@ footer {
 .post-header{
     margin-top: 8rem;
 }
+
+// Full screen video Template CSS
+
+// Full screen video Template CSS

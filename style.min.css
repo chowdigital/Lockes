@@ -1179,11 +1179,11 @@ button.close{padding:0;background-color:transparent;border:0}
 .blue.lighten-3{background-color:#0052a3 !important}
 .blue.lighten-2{background-color:#00478f !important}
 .blue.lighten-1{background-color:#003d7a !important}
-.blue{background-color:#036 !important}
-.blue-text{color:#036 !important}
-.rgba-blue-slight,.rgba-blue-slight:after{background-color:rgba(0,51,102,0.1)}
-.rgba-blue-light,.rgba-blue-light:after{background-color:rgba(0,51,102,0.3)}
-.rgba-blue-strong,.rgba-blue-strong:after{background-color:rgba(0,51,102,0.7)}
+.blue{background-color:#00b8d4 !important}
+.blue-text{color:#00b8d4 !important}
+.rgba-blue-slight,.rgba-blue-slight:after{background-color:rgba(0,184,212,0.1)}
+.rgba-blue-light,.rgba-blue-light:after{background-color:rgba(0,184,212,0.3)}
+.rgba-blue-strong,.rgba-blue-strong:after{background-color:rgba(0,184,212,0.7)}
 .blue.darken-1{background-color:#002952 !important}
 .blue.darken-2{background-color:#001f3d !important}
 .blue.darken-3{background-color:#001429 !important}
@@ -2674,7 +2674,9 @@ ul.stepper li.active a .label,ul.stepper li.completed a .label{font-weight:600;c
 .treeview-colorful .treeview-colorful-items-header .fa-angle-right{font-size:.8rem;-webkit-transition:all .2s linear;transition:all .2s linear}
 .treeview-colorful .treeview-colorful-items-header .fas{position:relative;color:#ffac47;-webkit-transition:all .2s linear;transition:all .2s linear;-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .treeview-colorful .treeview-colorful-items-header .fa-minus-circle{position:relative;color:#ffac47;-webkit-transition:all .2s linear;transition:all .2s linear;-webkit-transform:rotate(180deg);transform:rotate(180deg)}
-.page{margin:0;padding-top:60px}
+html,body,#page,.view{height:100%}
+body.logged-in nav{margin-top:20px}
+.page{margin:0;padding-top:0}
 .navbar-toggler{background-color:transparent !important}
 .entry-title{margin:3em 0}
 .row{padding-bottom:1em}
