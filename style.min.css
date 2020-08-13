@@ -2677,6 +2677,9 @@ ul.stepper li.active a .label,ul.stepper li.completed a .label{font-weight:600;c
 html,body,#page,.view{height:100%}
 body.logged-in nav{margin-top:32px}
 .top-nav-collapse{background:#000 !important}
+.carousel{height:50%}
+.carousel .carousel-inner{height:100%}
+.carousel .carousel-inner .carousel-item,.carousel .carousel-inner .active{height:100%}
 .page{margin:0;padding-top:0}
 .navbar-toggler{background-color:transparent !important}
 .entry-title{margin:3em 0}
@@ -2689,6 +2692,8 @@ footer{margin-top:4rem}
 footer .md-form label{color:#fff}
 .no-line-break{margin-bottom:0}
 .post-header{margin-top:8rem}
+.img-fluid,.modal-dialog.cascading-modal.modal-avatar .modal-header,.modal-dialog.cascading-modal.modal-avatar .modal-header,.video-fluid{min-width:100%;min-height:100%}
+.btn-rounded{padding:20px 20px;border-radius:40px}
 @media(prefers-reduced-motion:reduce){.form-control,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,select{-webkit-transition:none;transition:none}
 .form-check-input{-webkit-transition:none;transition:none}
 .form-range::-webkit-slider-thumb{-webkit-transition:none;transition:none}
@@ -3858,6 +3863,7 @@ legend{font-size:1.5rem}
 .modal-fullscreen-lg-down .modal-header{border-radius:0}
 .modal-fullscreen-lg-down .modal-body{overflow-y:auto}
 .modal-fullscreen-lg-down .modal-footer{border-radius:0}
+}@media(max-width:776px){.carousel{height:100%}
 }@media(max-width:767.98px){.table-responsive-md{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .modal-fullscreen-md-down{width:100vw;max-width:none;height:100%;margin:0}
 .modal-fullscreen-md-down .modal-content{height:100%;border:0;border-radius:0}

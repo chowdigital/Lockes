@@ -1,9 +1,16 @@
 <?php /* Template Name: Home*/ get_header(); ?>
 <!-- Full Page Intro -->
-<div class="view full-page-intro" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 
+<div class="view full-page-intro">
+
+<video playsinline autoplay muted loop id="myVideo" class="view full-page-intro">
+  		<source src="<?php echo get_template_directory_uri(); ?>/assets/img/video/blackbook_1.0.mp4" type="video/mp4">
+  			<source src="<?php echo get_template_directory_uri(); ?>/assets/img/video/blackbook_1.0.webm" type="video/webm">
+  				<source src="<?php echo get_template_directory_uri(); ?>/assets/img/video/blackbook_1.0.ogg" type="video/ogg">
+		 </video>
 <!-- Mask & flexbox options-->
-<div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+<div class="mask d-flex justify-content-center align-items-center">
 
   <!-- Content -->
   <div class="container">

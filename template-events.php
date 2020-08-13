@@ -1,4 +1,4 @@
-<?php /* Template Name: Team*/ get_header(); ?>
+<?php /* Template Name: Events*/ get_header(); ?>
  <!--Carousel Wrapper-->
  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
 
@@ -67,12 +67,13 @@
 </div>
 <!--/.Carousel Wrapper-->
 <main id="primary" class="site-main container">
+
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 <!--Grid row-->
 <div class="row wow fadeIn">
 <?php
 // The Query
-		$the_query = new WP_Query( 'cat=3&posts_per_page=24' );
+$the_query = new WP_Query( 'cat=1&posts_per_page=24' );
 //posts_per_page=5'
 
 
@@ -85,23 +86,24 @@
 
 
     <!--Grid column-->
-    <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
-        <div class="card d-flex flex-column flex-grow flex-fill">
-            <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 card-img-top">
-                <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
-                
-            </div>
-
-            <div class="card-body d-flex flex-column flex-grow flex-fill">
-                <h4 class="mb-3 font-weight-bold dark-grey-text">
-                    <strong><?php the_title(); ?></strong>
-                </h4>
-            
-            
-                <p class="grey-text"><?php the_content(); ?></p>
-                </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex flex-column">
+        <!--Featured image-->
+        <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 ">
+            <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+            <a href="<?php echo get_permalink() ?>">
+                <div class="mask"></div>
+            </a>
         </div>
+
+     
+        <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong><?php the_title(); ?></strong>
+        </h4>
+       
+       
+        <p class="grey-text"><?php the_excerpt(); ?></p>
+        <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-white btn-rounded"><i class="fa fa-info-circle aria-hidden="true"></i> More Information </button></a>
+
     </div>
     <!--Grid column-->
 
@@ -111,7 +113,6 @@
   } // end while
   } // end if
   ?>
-
   </div>
   <!--Grid row-->
 </main>
