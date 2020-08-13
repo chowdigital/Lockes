@@ -1521,8 +1521,8 @@ a.bg-light:hover,a.bg-light:focus,button.bg-light:hover,button.bg-light:focus{ba
 .card-img-64{width:64px;height:64px}
 .mml-1{margin-left:-0.25rem !important}
 .flex-1{-webkit-box-flex:1;-ms-flex:1;flex:1}
-body{font-family:"Roboto",sans-serif;font-weight:300}
-h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{font-weight:300}
+body,p{font-family:apertura,sans-serif;font-style:normal;font-weight:400}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{font-family:din-condensed,sans-serif;font-style:normal;font-weight:400}
 .blockquote{padding:.5rem 1rem;border-left:.25rem solid #eceeef}
 .blockquote.text-right{border-right:.25rem solid #eceeef;border-left:0}
 .blockquote .bq-title{margin-bottom:0;font-size:1.5rem;font-weight:400}
@@ -2694,6 +2694,10 @@ footer .md-form label{color:#fff}
 .post-header{margin-top:8rem}
 .img-fluid,.modal-dialog.cascading-modal.modal-avatar .modal-header,.modal-dialog.cascading-modal.modal-avatar .modal-header,.video-fluid{min-width:100%;min-height:100%}
 .btn-rounded{padding:20px 20px;border-radius:40px}
+.book-btn{background:#8b634b}
+.navbar-expand-lg .navbar-nav .nav-link{padding-right:1rem;padding-left:1rem}
+.page-img-header{height:100%}
+.white-content-box{background-color:#fff;width:50%;padding:2rem;-webkit-box-shadow:0 0 0 1px #e5e5e5 inset;box-shadow:0 0 0 1px #e5e5e5 inset;border:1rem solid #fff}
 @media(prefers-reduced-motion:reduce){.form-control,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,select{-webkit-transition:none;transition:none}
 .form-check-input{-webkit-transition:none;transition:none}
 .form-range::-webkit-slider-thumb{-webkit-transition:none;transition:none}
@@ -3169,6 +3173,7 @@ footer .md-form label{color:#fff}
 .modal .modal-dialog.modal-bottom-right{right:10px;bottom:10px}
 .carousel-caption{top:50%;left:10%;-webkit-transform:translateY(-50%);transform:translateY(-50%);bottom:initial}
 .carousel-caption .h1-responsive{color:#000a14;text-transform:uppercase;font-size:3em;font-weight:600;text-align:left}
+.page-img-header{height:50%}
 }@media(min-width:992px){.container,.container-sm,.container-md,.container-lg{max-width:960px}
 .col-lg{-webkit-box-flex:1;-ms-flex:1 0 0;flex:1 0 0}
 .row-cols-lg-auto>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}

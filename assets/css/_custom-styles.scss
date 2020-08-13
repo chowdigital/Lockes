@@ -152,3 +152,37 @@ footer {
     padding: 20px 20px;
     border-radius: 40px;
 }
+
+// Hightlight Book BTN
+.book-btn {
+    background: #8B634B;
+
+}
+
+//Resize Navbar buttons
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+//Custom page header
+
+.page-img-header{
+    height: 100%;
+}
+@media (min-width: 768px) {
+    .page-img-header{
+        height: 50%;
+    }
+}
+
+.white-content-box {
+    background-color: #fff;
+    width: 50%;
+    padding: 2rem;
+    -webkit-box-shadow: 0 0 0 1px #e5e5e5 inset;
+    box-shadow: 0 0 0 1px #e5e5e5 inset;
+    border: 1rem solid #fff;
+}
+
+//fonts

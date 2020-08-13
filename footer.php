@@ -11,7 +11,7 @@
 
 ?>
 <!-- Footer -->
-<footer class="page-footer font-small grey pt-4">
+<footer class="page-footer font-small black pt-4">
 
   <!-- Footer Links -->
   <div class="container text-md-left">

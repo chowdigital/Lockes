@@ -1,13 +1,16 @@
 // Typography
 
 // General properties
-body {
-  font-family: $mdb-font-family;
-  font-weight: $font-weight-light;
+body, p {
+  font-family: apertura, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $font-weight-light;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 // Blockquote
