@@ -1,14 +1,14 @@
 <?php /* Template Name: Events*/ get_header(); ?>
 
   <div class="page-img-header d-flex" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/wine1'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-    <div class="container d-flex flex-column justify-content-center">
-    <div class="white-content-box">
+    <div class="mask rgba-black-light" style="width: 100%; height: 100%;">
+    <!--<div class="white-content-box">
       
         <h1>Promo</h1>
         <p>Info about promo</p>
         <button>Press</button>
       
-      </div>
+      </div>-->
     </div>
   </div>
 

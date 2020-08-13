@@ -15,10 +15,19 @@ body.logged-in {
 }
 
 // change Navbar color on scroll 
-.top-nav-collapse {
-        background: #000!important;
-    }
 
+.top-nav-collapse {
+    background: #000!important;
+}
+
+.navbar {
+background: #000;
+}
+    @include media-breakpoint-up(md) {
+        .navbar {
+            background: transparent;
+            }
+      }
 
 /* Half Page Carousel itself*/
 .carousel {
