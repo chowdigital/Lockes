@@ -107,4 +107,5 @@
 	<!--Section: Contact v.2-->
 </div>
 </main>
+<?php get_template_part( 'template-parts/banner', 'page' ); ?>
 <?php get_footer(); ?>

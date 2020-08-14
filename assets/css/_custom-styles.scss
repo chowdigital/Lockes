@@ -175,6 +175,10 @@ footer {
 }
 
 //Custom page header
+.gradient-custom {
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,0,0) 38%);
+}
 
 .page-img-header{
     height: 100%;
@@ -187,11 +191,23 @@ footer {
 
 .white-content-box {
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     padding: 2rem;
     -webkit-box-shadow: 0 0 0 1px #e5e5e5 inset;
     box-shadow: 0 0 0 1px #e5e5e5 inset;
     border: 1rem solid #fff;
 }
-
+@media (min-width: 768px) {
+    .white-content-box {
+        width: 50%;
+    }
+}
 //fonts
+
+// extra padding
+.pt-6 {
+    padding-top: 7rem;
+}
+.pb-6 {
+    padding-bottom: 7rem;
+}

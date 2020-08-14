@@ -15,6 +15,12 @@
 get_header();
 ?>
 
+<div class="page-img-header d-flex" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+<div class="mask gradient-custom" style="width: 100%; height: 100%;">
+
+  </div>
+</div>
 	<main id="primary" class="site-main container">
 
 		<?php
@@ -22,6 +28,7 @@ get_header();
 			the_post();
 
 			get_template_part( 'template-parts/content', 'page' );
+			
 
 			
 
@@ -29,6 +36,7 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+	<?php get_template_part( 'template-parts/banner', 'page' ); ?>
 
 <?php
 

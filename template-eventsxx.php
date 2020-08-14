@@ -7,6 +7,7 @@
     </div>
   </div>
 
+  <?php get_template_part( 'template-parts/banner', 'page' ); ?>
 
 
 <main id="primary" class="site-main container">
@@ -57,14 +58,13 @@
       $counter++;
       } // end while
       } // end if
-      wp_reset_postdata(); 
       ?>
    
     <!--Grid row-->
     </div>
 </main>
 
-
+<?php include( locate_template( 'template-parts/banner.php' ) ); ?>
 <?php get_template_part( 'template-parts/banner', 'page' ); ?>
 
 <?php get_footer(); ?>
