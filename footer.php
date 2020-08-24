@@ -10,11 +10,19 @@
  */
 
 ?>
+<!-- Footer -->
+<footer class="page-footer font-small black">
 
-<footer class="entry-footer page-footer font-small black pt-4">
-    <?php _s_entry_footer(); ?>
-</footer><!-- .entry-footer -->
-</div><!-- #page -->
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">A 
+    <a href="https://mdbootstrap.com/"> Cloudsdale</a> Website
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
 
 <?php wp_footer(); ?>
 

@@ -105,6 +105,11 @@ if ( ! function_exists( 'wordpress_bootstrap_starter_theme_setup' ) ) :
 			)
 		);
 	}
+	
+
+	// add new option
+
+	
 endif;
 add_action( 'after_setup_theme', 'wordpress_bootstrap_starter_theme_setup' );
 
@@ -209,4 +214,3 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 	
 }
-

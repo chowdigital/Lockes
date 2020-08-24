@@ -6,9 +6,9 @@
   </div>
 </div>
 <main id="primary" class="site-main container">
-<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+
 <!--Grid row-->
-<div class="row wow fadeIn">
+<div class="row wow fadeIn pb-6 pt-6">
 <?php
 // The Query
 		$the_query = new WP_Query( 'cat=3&posts_per_page=24' );

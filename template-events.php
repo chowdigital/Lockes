@@ -9,7 +9,8 @@
 
 
 
-<main id="primary" class="site-main container">
+<main id="primary" class="site-main container  pt-6 pb-6">
+  <div class="menu-content-box">
 
   <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
   <!--Grid row-->
@@ -47,7 +48,7 @@
           
           
             <p class="grey-text"><?php the_excerpt(); ?></p>
-            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-white btn-rounded"><i class="fa fa-info-circle aria-hidden="true"></i> More Information </button></a>
+            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-dark"><i class="fa fa-info-circle aria-hidden="true"></i> More Information </button></a>
 
         </div>
         <!--Grid column-->
@@ -59,8 +60,9 @@
       } // end if
       wp_reset_postdata(); 
       ?>
-   
+     </div>
     <!--Grid row-->
+  
     </div>
 </main>
 

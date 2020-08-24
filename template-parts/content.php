@@ -12,9 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-<header class="entry-header">
-<div class="row post-header">
-	<div class="col-12 col-md-8">
+<header class="entry-header pb-4">
+
 			<?php
 			if ( is_singular() ) :
 				the_title( '<h1 class="">', '</h1>' );
@@ -26,16 +25,10 @@
 				?>
 				
 			<?php endif; ?>
-		</div>
-	<div class="col-12 col-md-4">
-		<?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid z-depth-1')); ?>
-	</div>
-	</div>
+
 </header><!-- .entry-header -->
 
-<div class="container my-5 py-5 z-depth-1">
-	
-	<div class="entry-content px-md-5 mx-md-5">
+
 		<?php
 		the_content(
 			sprintf(
@@ -59,8 +52,7 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
-	</div> 
+
 	<footer class="entry-footer">
 		<?php wordpress_bootstrap_starter_theme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

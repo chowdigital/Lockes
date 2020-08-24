@@ -5,13 +5,21 @@ body,
 .view {
   height: 100%
 }
-
+ 
   // Settings for navbar in edit mode
 body.logged-in {
     
     nav {
         margin-top: 32px;
     }
+}
+body {
+    background-image: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    //background-color: #464646;
+    //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
 }
 
 // change Navbar color on scroll 
@@ -53,7 +61,7 @@ background: #000;
     background-color: transparent !important;
 }
 .entry-title {
-    margin: 3em 0em;
+    margin: 1em 0em;
 }
 .row {
 padding-bottom: 1em;
@@ -65,74 +73,6 @@ padding-bottom: 1em;
     padding-left: 0rem;
 }
 
-.carousel-caption {
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    bottom: initial;
-    .h1-responsive{
-        color: $blue-darken-4;
-        text-transform: uppercase;
-        font-size: 2em;
-        font-weight: 600;
-        text-align: left;
-        
-    }
-    
-}
-
-@media (min-width: 576px) { 
-
-}
-
-@media (min-width: 768px) {
-    .carousel-caption {
-        top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
-        bottom: initial;
-        .h1-responsive{
-            color: $blue-darken-4;
-            text-transform: uppercase;
-            font-size: 3em;
-            font-weight: 600;
-            text-align: left;
-            
-        }
-        
-    }
-}
-
-
-@media (min-width: 992px) {
-    .carousel-caption {
-        top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
-        bottom: initial;
-        .h1-responsive{
-            color: $blue-darken-4;
-            text-transform: uppercase;
-            font-size: 5em;
-            font-weight: 600;
-            text-align: left;
-            
-        }
-        
-    }
-}
-
-
-@media (min-width: 1200px) {
-
-}
-
-.carousel-item{
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    
-}
 
 
 footer {
@@ -210,4 +150,28 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 .pb-6 {
     padding-bottom: 7rem;
+}
+
+// Menu page 
+.dark-background {
+    background: #8B634B;
+    min-height: 200px;
+}
+
+.menu-image-box{
+    min-height: 400px;
+}
+
+.menu-content-box {
+    background-color: #fff;
+    padding: 2rem;
+    -webkit-box-shadow: 0 0 0 1px #e5e5e5 inset;
+    box-shadow: 0 0 0 1px #e5e5e5 inset;
+    border: 1rem solid #fff;
+}
+// \Menu Page 
+
+//footer 
+footer {
+    margin-top: 0;
 }
