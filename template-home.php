@@ -40,7 +40,7 @@
 
 
 
-<main class="container-fluid dark-background">
+<main class="container-fluid">
 
 
   <div class="container pt-6 pb-6">

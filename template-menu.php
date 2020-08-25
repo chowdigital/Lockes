@@ -8,9 +8,9 @@
 </div>
 
 
-<main class="container-fluid dark-background">
+<main class="container-fluid">
   <div class="container pt-6 pb-6">
-    <div class="row">
+    <div class="row z-depth-3">
       <div class="menu-image-box col-12 col-lg-6" style="background-image: url(<?php the_field('menu_image');  ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
       
       </div>
