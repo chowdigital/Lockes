@@ -10,7 +10,7 @@
 
 
 <main id="primary" class="site-main container  pt-6 pb-6">
-  <div class="menu-content-box">
+  <div class="menu-content-box z-depth-3">
 
   <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
   <!--Grid row-->

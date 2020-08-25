@@ -1,7 +1,7 @@
 <?php /* Template Name: Home*/ get_header(); ?>
 <!-- Full Page Intro -->
 
-<div class="view full-page-intro">
+<div class="view full-page-intro z-depth-3">
 
 <video playsinline autoplay muted loop id="myVideo" class="view full-page-intro">
   		<source src="<?php echo get_template_directory_uri(); ?>/assets/img/video/blackbook_1.0.mp4" type="video/mp4">
@@ -29,6 +29,8 @@
   </div>
   <!-- Content -->
 
+  
+
 </div>
 <!-- Mask & flexbox options-->
 
@@ -43,34 +45,44 @@
 <main class="container-fluid">
 
 
-  <div class="container pt-6 pb-6">
+  <div class="container pt-6 pb-6 z-depth-3">
     <div class="row">
       <div class="menu-image-box col-12 col-lg-6" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
       
       </div>
       <div class="menu-content-box col-12 col-lg-6">
       <header class="entry-header">
-		<?php the_title( '<h1>', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
-the_content();
-endwhile; else: ?>
-<p>Sorry, no posts matched your criteria.</p>
-<?php endif; ?>
+	          	<?php the_title( '<h1>', '</h1>' ); ?>
+	    </header><!-- .entry-header -->
+          <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+          the_content();
+          endwhile; else: ?>
+          <p>Sorry, no posts matched your criteria.</p>
+          <?php endif; ?>
 
       </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <img id="full-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/TBB_Full_Logo_Dark.png" alt="Black Book Soho Logo">
+    </div>
+  </div>
 </main><!-- #main -->
+
+
+
+
 <main id="primary" class="site-main container  pt-6 pb-6">
-  <div class="menu-content-box">
+  <div class="menu-content-box col-12">
 
   <h1 class="entry-title">Events</h1>
   <!--Grid row-->
   <div class="row wow fadeIn">
     <?php
     // The Query
-    $the_query = new WP_Query( 'cat=1&posts_per_page=24' );
+    $the_query = new WP_Query( 'cat=1&posts_per_page=4' );
     //posts_per_page=5'
 
 
@@ -83,25 +95,27 @@ endwhile; else: ?>
 
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex flex-column">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex flex-column">
      
 
             <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 ">
-                <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper">
+
+              <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+          
                 <a href="<?php echo get_permalink() ?>">
                     <div class="mask"></div>
                 </a>
             </div>
 
         
-            <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <h4 class="mb-3 font-weight-bold">
                 <strong><?php the_title(); ?></strong>
             </h4>
           
           
             <p class="grey-text"><?php the_excerpt(); ?></p>
-            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-dark">Find out More </button></a>
+            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-light">Find out More </button></a>
 
         </div>
         <!--Grid column-->
@@ -116,7 +130,7 @@ endwhile; else: ?>
      </div>
     <!--Grid row-->
     <div class="more-box text-center">
-    <a href="events"><button type="button" class="btn btn-white">More Events</button></a>
+    <a href="events"><button type="button" class="btn btn-primary">All Events</button></a>
     </div>
     </div>
 </main>
