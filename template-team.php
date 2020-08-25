@@ -17,7 +17,7 @@
   <div class="row wow fadeIn">
     <?php
     // The Query
-    $the_query = new WP_Query( 'cat=3&posts_per_page=4' );
+    $the_query = new WP_Query( 'cat=3&posts_per_page=24' );
     //posts_per_page=5'
 
 
@@ -38,9 +38,9 @@
 
               <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
           
-                <a href="<?php echo get_permalink() ?>">
+               
                     <div class="mask"></div>
-                </a>
+                
             </div>
 
             <div>
@@ -49,7 +49,7 @@
             </h4>
           
           
-            <p class="grey-text"><?php the_excerpt(); ?></p>
+            <p class="grey-text"><?php the_content(); ?></p>
             </div>
            
         </div>
@@ -64,9 +64,7 @@
       ?>
      </div>
     <!--Grid row-->
-    <div class="more-box text-center">
-    <a href="events"><button type="button" class="btn btn-primary">All Events</button></a>
-    </div>
+ 
     </div>
 </main>
 <?php get_template_part( 'template-parts/banner', 'page' ); ?>
