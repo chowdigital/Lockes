@@ -166,10 +166,6 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 
 // Menu page 
-.dark-background {
-    background: #8B634B;
-    min-height: 200px;
-}
 
 .menu-image-box{
     min-height: 400px;
@@ -189,7 +185,18 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 footer {
     margin-top: 0;
 }
-
+.dark-background {
+    background: $black-base;
+}
+.black-background {
+    margin-top:2em;
+    background: #000;
+}
+@media (min-width: 768px) {
+    .text-footer-responsive{
+        text-align: right;
+    }
+}
 // Set size for thumbnail images
 .thumb-wrapper{
     width: 100%;

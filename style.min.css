@@ -56,7 +56,7 @@ textarea{width:100%}
 body{margin:0;font-family:var(--bs-font-sans-serif);font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
 [tabindex="-1"]:focus:not(:focus-visible){outline:0 !important}
 hr{margin:1rem 0;color:inherit;background-color:currentColor;border:0;opacity:.25}
-hr:not([size]){height:1px}
+hr:not([size]){height:0}
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2}
 h1,.h1{font-size:calc(1.375rem + 1.5vw)}
 h2,.h2{font-size:calc(1.325rem + 0.9vw)}
@@ -2699,10 +2699,11 @@ footer .md-form label{color:#fff}
 .white-content-box{background-color:rgba(0,0,0,0.8);width:100%;padding:2rem;-webkit-box-shadow:0 0 0 1px #e5e5e5 inset;box-shadow:0 0 0 1px #fff inset;border:1rem solid rgba(0,0,0,0.8);color:#fff}
 .pt-6{margin-top:7rem}
 .pb-6{margin-bottom:7rem}
-.dark-background{background:#8b634b;min-height:200px}
 .menu-image-box{min-height:400px}
 .menu-content-box{background-color:#231f20;padding:2rem;-webkit-box-shadow:0 0 0 1px #e5e5e5 inset;box-shadow:0 0 0 1px #fff inset;border:1rem solid #231f20;color:#fff}
 footer{margin-top:0}
+.dark-background{background:#231f20}
+.black-background{margin-top:2em;background:#000}
 .thumb-wrapper{width:100%;height:300px;overflow:hidden}
 .thumb-wrapper img{-o-object-fit:cover;object-fit:cover}
 @media(prefers-reduced-motion:reduce){.form-control,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,select{-webkit-transition:none;transition:none}
@@ -3181,6 +3182,7 @@ footer{margin-top:0}
 .navbar{background:transparent}
 .page-img-header{height:50%}
 .white-content-box{width:50%}
+.text-footer-responsive{text-align:right}
 }@media(min-width:992px){.container,.container-sm,.container-md,.container-lg{max-width:960px}
 .col-lg{-webkit-box-flex:1;-ms-flex:1 0 0;flex:1 0 0}
 .row-cols-lg-auto>*{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}

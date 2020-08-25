@@ -108,15 +108,17 @@
                 </a>
             </div>
 
-        
+            <div>
             <h4 class="mb-3 font-weight-bold">
                 <strong><?php the_title(); ?></strong>
             </h4>
           
           
             <p class="grey-text"><?php the_excerpt(); ?></p>
+            </div>
+            <div class="mt-auto">
             <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-light">Find out More </button></a>
-
+            </div>
         </div>
         <!--Grid column-->
 

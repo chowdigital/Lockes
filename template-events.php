@@ -9,10 +9,12 @@
 
 
 
-<main id="primary" class="site-main container  pt-6 pb-6">
-  <div class="menu-content-box z-depth-3">
+  <main id="primary" class="site-main container  pt-6 pb-6">
+  <div class="menu-content-box col-12">
 
+  <header class="entry-header">
   <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+	</header><!-- .entry-header -->
   <!--Grid row-->
   <div class="row wow fadeIn">
     <?php
@@ -30,26 +32,30 @@
 
 
         <!--Grid column-->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex flex-column">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex flex-column">
      
 
             <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 ">
-                <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper">
+
+              <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+          
                 <a href="<?php echo get_permalink() ?>">
                     <div class="mask"></div>
                 </a>
             </div>
 
-        
-            <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <div>
+            <h4 class="mb-3 font-weight-bold">
                 <strong><?php the_title(); ?></strong>
             </h4>
           
           
             <p class="grey-text"><?php the_excerpt(); ?></p>
-            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-dark"><i class="fa fa-info-circle aria-hidden="true"></i> More Information </button></a>
-
+            </div>
+            <div class="mt-auto">
+            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-light">Find out More </button></a>
+            </div>
         </div>
         <!--Grid column-->
 
@@ -62,7 +68,7 @@
       ?>
      </div>
     <!--Grid row-->
-  
+
     </div>
 </main>
 
