@@ -1,6 +1,6 @@
 <?php /* Template Name: Menu*/ get_header(); ?>
 
-<div class="page-img-header d-flex" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
+<div class="page-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
 <div class="mask gradient-custom" style="width: 100%; height: 100%;">
 
@@ -11,9 +11,13 @@
 <main class="container-fluid">
   <div class="container pt-6 pb-6">
     <div class="row z-depth-3">
-      <div class="menu-image-box col-12 col-lg-6" style="background-image: url(<?php the_field('menu_image');  ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
+      
+    <div class="menu-image-box col-12 col-lg-6" style="background-image: url(<?php the_field('menu_image');  ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
       
       </div>
+      
+
+
       <div class="menu-content-box col-12 col-lg-6 text-center">
 	<header class="entry-header">
 		<?php the_title( '<h1>', '</h1>' ); ?>
@@ -29,41 +33,41 @@ endwhile; else: ?>
       
         
 <div class="row">
-        <div class="col-6">
+        <div class="col-12">
           <?php if( get_field('f_1') ): ?>
-            <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_1'); ?></button></a>
+            <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_1'); ?></button></a>
          
           <?php endif; ?>
         </div>
-        <div class="col-6">
+        <div class="col-12">
           <?php if( get_field('f_2') ): ?>
-            <a href="<?php the_field('f_2'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_2'); ?></button></a>
+            <a href="<?php the_field('f_2'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_2'); ?></button></a>
           <?php endif; ?>
         </div>
       </div>
           
       <div class="row">
-        <div class="col-6">
+        <div class="col-12">
           <?php if( get_field('f_3') ): ?>
-          <a href="<?php the_field('f_3'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_3'); ?></button></a>
+          <a href="<?php the_field('f_3'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_3'); ?></button></a>
         <?php endif; ?>
         </div>
-        <div class="col-6">
+        <div class="col-12">
         <?php if( get_field('f_4') ): ?>
-        <a href="<?php the_field('f_4'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_4'); ?></button></a>
+        <a href="<?php the_field('f_4'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_4'); ?></button></a>
       <?php endif; ?>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-6">
+        <div class="col-12">
         <?php if( get_field('f_5') ): ?>
-        <a href="<?php the_field('f_5'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_5'); ?></button></a>
+        <a href="<?php the_field('f_5'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_5'); ?></button></a>
       <?php endif; ?>
         </div>
-        <div class="col-6">
+        <div class="col-12">
         <?php if( get_field('f_6') ): ?>
-        <a href="<?php the_field('f_6'); ?>"><button type="button" class="btn btn-dark"><?php the_field('n_6'); ?></button></a>
+        <a href="<?php the_field('f_6'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_6'); ?></button></a>
       <?php endif; ?>
         </div>
       </div>

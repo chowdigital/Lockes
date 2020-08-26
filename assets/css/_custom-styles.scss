@@ -16,7 +16,7 @@ body.logged-in {
     }
 }
 body {
-    background-image: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png');
+    background-image: url('http://blackbooksoho.co.uk/wp-content/uploads/2020/08/copper-1024x576-1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -150,11 +150,12 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
     border: 1rem solid rgba(0, 0, 0, 0.8);
     color: #fff;
 }
-@media (min-width: 768px) {
+@include media-breakpoint-up(lg) {
     .white-content-box {
         width: 50%;
     }
-}
+  }
+
 //fonts
 
 // extra padding

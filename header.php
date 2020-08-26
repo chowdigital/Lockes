@@ -31,8 +31,8 @@
   <div class="container">
 	<!-- Brand and toggle get grouped for better mobile display -->
 	<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-  <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/TBB_Icon_2.png" alt="Black Book Logo" style>
-	
+  <img src="http://blackbooksoho.co.uk/wp-content/uploads/2020/08/TBB_Icon_2.png" alt="Black Book Logo" style>
+
 		</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>

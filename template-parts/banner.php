@@ -20,7 +20,7 @@
       <div class="white-content-box text-center">
       <h1><?php the_field('B1_title'); ?></h1>
       <p><?php the_field('b1_description'); ?></p>
-      <a href="<?php the_field('b1_button_link'); ?>"><button type="button" class="btn btn-dark"><?php the_field('b1_btn_text'); ?></button></a>
+      <a href="<?php the_field('b1_button_link'); ?>"><button type="button" class="btn btn-primary"><?php the_field('b1_btn_text'); ?></button></a>
 
       </div>
       

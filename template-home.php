@@ -75,8 +75,9 @@
 
 
 <main id="primary" class="site-main container  pt-6 pb-6">
+<div class="z-depth-3">
   <div class="menu-content-box col-12">
-
+ 
   <h1 class="entry-title">Events</h1>
   <!--Grid row-->
   <div class="row wow fadeIn">
@@ -133,6 +134,7 @@
     <!--Grid row-->
     <div class="more-box text-center">
     <a href="events"><button type="button" class="btn btn-primary">All Events</button></a>
+    </div>
     </div>
     </div>
 </main>

@@ -1,6 +1,6 @@
 <?php /* Template Name: Events*/ get_header(); ?>
 
-  <div class="page-img-header d-flex" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
+  <div class="page-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
   <div class="mask gradient-custom" style="width: 100%; height: 100%;">
 
@@ -10,6 +10,7 @@
 
 
   <main id="primary" class="site-main container  pt-6 pb-6">
+  <div class="z-depth-3">
   <div class="menu-content-box col-12">
 
   <header class="entry-header">
@@ -36,13 +37,9 @@
      
 
             <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper">
+            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
-              <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
-          
-                <a href="<?php echo get_permalink() ?>">
-                    <div class="mask"></div>
-                </a>
+             
             </div>
 
             <div>
@@ -69,6 +66,7 @@
      </div>
     <!--Grid row-->
 
+    </div>
     </div>
 </main>
 
