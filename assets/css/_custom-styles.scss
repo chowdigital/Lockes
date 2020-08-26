@@ -46,7 +46,9 @@ background: $black-base;
     max-height: auto;
 
 }
-
+#full-logo {
+    object-fit: contain;
+}
       
 //remove at bottom of footer
 .page{
@@ -179,6 +181,10 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
     box-shadow: 0 0 0 1px #fff inset;
     border: 1rem solid $black-base;
     color: #fff;
+}
+
+.btn-80 {
+    width: 80%
 }
 // \Menu Page 
 

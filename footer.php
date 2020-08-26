@@ -113,22 +113,27 @@
    
         <ul class="list-unstyled">
           <li>
-          <i class="fa fa-home" aria-hidden="true"></i>  23 Frith Street, Soho 
+          <i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;23 Frith Street, Soho 
           </li>
           <li>
-              <a href="https://www.google.com/maps/place/TRADE+Soho/@51.5133559,-0.1333751,17z/data=!3m1!4b1!4m5!3m4!1s0x48760529ea75a7b3:0x89287c620f263591!8m2!3d51.5133559!4d-0.1311864?shorturl=1"><i class="fas fa-map-marked-alt mt-4"></i>  View on Google Maps </a>
+              <a href="https://www.google.com/maps/place/TRADE+Soho/@51.5133559,-0.1333751,17z/data=!3m1!4b1!4m5!3m4!1s0x48760529ea75a7b3:0x89287c620f263591!8m2!3d51.5133559!4d-0.1311864?shorturl=1"><i class="fas fa-map-marked-alt mt-4"></i>&nbsp;&nbsp;View on Google Maps </a>
           </li>
           <li>
-          <a href="tel:+442074341724"><i class="fas fa-phone mt-4"></i>  020 7434 1724 </a>
+          <a href="tel:+442074341724"><i class="fas fa-phone mt-4"></i>&nbsp;&nbsp;020 7434 1724 </a>
           </li>
           <li>
-          <a href="mailto:info@blackbooksoho.co.uk"><i class="fas fa-envelope mt-4"></i>  info@blackbooksoho.co.uk</a>
+          <a href="mailto:info@blackbooksoho.co.uk"><i class="fas fa-envelope mt-4"></i>&nbsp;&nbsp;info@blackbooksoho.co.uk</a>
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>  Careers</a> 
+          <a href="http://blackbooksoho.co.uk/careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>  Prvacy Policy</a>
+          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Prvacy Policy</a>
+          </li>
+          <li>  
+          <a href="facebook.com/The-Black-Book-Soho-220715369254758"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://twitter.com/blackbooksoho"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="www.instagram.com/theblackbooksoho/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           </li>
           
         </ul>
@@ -145,7 +150,7 @@
 
   <!-- Copyright -->
   <div class="text-center py-3 black-background">A 
-    <a href="https://mdbootstrap.com/"> Cloudsdale</a> Website
+    <a href="https://twitter.com/blackbooksoho"> Cloudsdale</a> Website
   </div>
   <!-- Copyright -->
 

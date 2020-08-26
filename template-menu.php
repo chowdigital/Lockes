@@ -35,40 +35,56 @@ endwhile; else: ?>
 <div class="row">
         <div class="col-12">
           <?php if( get_field('f_1') ): ?>
-            <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_1'); ?></button></a>
+            <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_1'); ?></h4></div>
+              <div class="div"><?php the_field('s_1'); ?></div>
+            </button></a>
+           
          
           <?php endif; ?>
         </div>
         <div class="col-12">
           <?php if( get_field('f_2') ): ?>
-            <a href="<?php the_field('f_2'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_2'); ?></button></a>
-          <?php endif; ?>
+
+            <a href="<?php the_field('f_2'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_2'); ?></h4></div>
+              <div class="div"><?php the_field('s_2'); ?></div>
+            </button></a>
+                        <?php endif; ?>
         </div>
       </div>
           
       <div class="row">
         <div class="col-12">
           <?php if( get_field('f_3') ): ?>
-          <a href="<?php the_field('f_3'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_3'); ?></button></a>
-        <?php endif; ?>
+            <a href="<?php the_field('f_3'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_3'); ?></h4></div>
+              <div class="div"><?php the_field('s_3'); ?></div>
+            </button></a>        <?php endif; ?>
         </div>
         <div class="col-12">
         <?php if( get_field('f_4') ): ?>
-        <a href="<?php the_field('f_4'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_4'); ?></button></a>
-      <?php endif; ?>
+          <a href="<?php the_field('f_4'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_4'); ?></h4></div>
+              <div class="div"><?php the_field('s_4'); ?></div>
+            </button></a>      <?php endif; ?>
         </div>
       </div>
 
       <div class="row">
         <div class="col-12">
         <?php if( get_field('f_5') ): ?>
-        <a href="<?php the_field('f_5'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_5'); ?></button></a>
-      <?php endif; ?>
+          <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_5'); ?></h4></div>
+              <div class="div"><?php the_field('s_5'); ?></div>
+            </button></a>      <?php endif; ?>
         </div>
         <div class="col-12">
         <?php if( get_field('f_6') ): ?>
-        <a href="<?php the_field('f_6'); ?>"><button type="button" class="btn btn-light"><?php the_field('n_6'); ?></button></a>
-      <?php endif; ?>
+          <a href="<?php the_field('f_1'); ?>"><button type="button" class="btn btn-light btn-80">
+              <div class="div"><h4><?php the_field('n_6'); ?></h4></div>
+              <div class="div"><?php the_field('s_6'); ?></div>
+            </button></a>      <?php endif; ?>
         </div>
       </div>
 

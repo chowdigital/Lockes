@@ -2680,6 +2680,7 @@ body{background-image:url("http://blackbooksoho.co.uk/wp-content/uploads/2020/08
 .top-nav-collapse{background:#231f20 !important}
 .navbar{background:#231f20}
 .navbar-brand img{max-width:150px;max-height:auto}
+#full-logo{-o-object-fit:contain;object-fit:contain}
 .page{margin:0;padding-top:0}
 .navbar-toggler{background-color:transparent !important}
 .entry-title{margin:1em 0}
@@ -2701,6 +2702,7 @@ footer .md-form label{color:#fff}
 .pb-6{margin-bottom:7rem}
 .menu-image-box{min-height:400px}
 .menu-content-box{background-color:#231f20;padding:2rem;-webkit-box-shadow:0 0 0 1px #e5e5e5 inset;box-shadow:0 0 0 1px #fff inset;border:1rem solid #231f20;color:#fff}
+.btn-80{width:80%}
 footer{margin-top:0}
 .dark-background{background:#231f20}
 .black-background{margin-top:2em;background:#000}
