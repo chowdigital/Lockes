@@ -204,6 +204,13 @@ footer {
         text-align: right;
     }
 }
+
+// fix spacing issue text on footer
+.fc-wide{
+    padding-left: calc(var(--bs-gutter-x) / 2);
+}
+// footer
+
 // Set size for thumbnail images
 .thumb-wrapper{
     width: 100%;

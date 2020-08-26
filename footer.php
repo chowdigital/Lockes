@@ -25,50 +25,98 @@
         <!-- Content -->
         
         <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold my-4">Sign up to our newsletter</h2>
+    <h2 class="h1-responsive font-weight-bold my-4">SIGN UP TO OUR NEWSLETTER</h2>
     <!--Section description-->
     <p class="col-md-11">News and special events</p>
 
     <div class="row">
 
-        <!--Grid column-->
-        <div class="col-md-11 mb-md-0 mb-6">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
+<!--
+   <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="mdbInput">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
+      </div>
+-->
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();"> <i class="fas fa-paper-plane"></i> Send</a>
+    <!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://blackbooksoho.us17.list-manage.com/subscribe/post?u=64ab03f3af339dfeb72f5e5fe&amp;id=12fa2e0fcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div class="row">
+            <div class="md-form mb-0">
+           
+          <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+          <label for="mce-EMAIL" class="mdbInput fc-wide">Email</label>
+          </div>
+      </div>
+<div class="row">
+  <div class="col-md-6">
+        <div class="md-form mb-0">
+        <input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME">
+              <label for="mce-FNAME" class="mdbInput">First Name  <span class="asterisk">*</span></label>
+           
             </div>
-            <div class="status"></div>
-        </div>
-        <!--Grid column-->
+  </div>
+  <div class="col-md-6">
+        <div class="md-form mb-0">
+       
+        <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+        <label for="mce-LNAME"  class="mdbInput">Last Name </label>
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  
+<div class="md-form mb-0">
+
+        
+  <input type="text" name="PHONE" class="form-control" value="" id="mce-PHONE">
+  <label for="mce-PHONE" class="mdbInput fc-wide">Phone Number </label>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="">
+
+	<div class="row datefield">
+    <div class="col-md-6">
+    <div class="md-form mb-0">
+
+      <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" class="form-control">
+      <label for="mce-BIRTHDAY-day" class="mdbInput">DD </label>
+</div>
+  </div>
+<div class="col-md-6">
+<div class="md-form mb-0">
+
+    <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" class="form-control">
+    <label for="mce-BIRTHDAY-month" class="mdbInput">MM</label>
+</div>
+</div>
+<p class="">BIRTHDAY</p>
+	</div>
+</div>	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64ab03f3af339dfeb72f5e5fe_12fa2e0fcf" tabindex="-1" value=""></div>
+    <div class="clear">
+      <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+
 
         
 

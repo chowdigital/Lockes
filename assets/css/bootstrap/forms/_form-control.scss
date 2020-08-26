@@ -1,5 +1,5 @@
 //
-// Textual form controls
+// Textual s
 //
 
 .form-control {
@@ -25,7 +25,7 @@
 
   // Customize the `:focus` state to imitate native WebKit styles.
   &:focus {
-    color: $input-focus-color;
+    color: #fff;
     background-color: $input-focus-bg;
     border-color: $input-focus-border-color;
     outline: 0;
@@ -81,10 +81,10 @@
   }
 }
 
-// Form control sizing
+//  sizing
 //
 // Build on `.form-control` with modifier classes to decrease or increase the
-// height and font-size of form controls.
+// height and font-size of s.
 //
 // Repeated in `_input_group.scss` to avoid Sass extend issues.
 
