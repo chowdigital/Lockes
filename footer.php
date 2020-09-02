@@ -12,6 +12,29 @@
 ?>
 <!-- Footer -->
 <footer class="page-footer font-small dark-background  pt-4">
+    <section class="sisters container">
+      <div class="row">
+      <div class="col-12 col-lg-6">
+      <h1>App</h1>
+      </div>
+      <div class="col-6 col-lg-3">
+      <div class="">
+      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="">
+      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
+      </div>
+      </div>
+      <div class="col-6 col-lg-3">
+      <div class="">
+      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
+      </div>
+      <div class="">
+      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
+      </div>
+      </div>
+      </div>
+    </section>
 
   <!-- Footer Links -->
   <div class="container text-md-left">
@@ -32,12 +55,6 @@
     <div class="row">
 
 
-<!--
-   <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="mdbInput">Your name</label>
-      </div>
--->
 
     <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
@@ -47,7 +64,7 @@
             <div class="md-form mb-0">
            
           <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-          <label for="mce-EMAIL" class="mdbInput fc-wide">Email</label>
+          <label for="mce-EMAIL" class="mdbInput fc-wide">Email <span class="asterisk">*</span></label>
           </div>
       </div>
 <div class="row">
@@ -176,7 +193,7 @@
           <a href="http://blackbooksoho.co.uk/careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Prvacy Policy</a>
+          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Prvicy Policy</a>
           </li>
           <li>  
           <a href="facebook.com/The-Black-Book-Soho-220715369254758"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
