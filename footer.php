@@ -12,26 +12,137 @@
 ?>
 <!-- Footer -->
 <footer class="page-footer font-small dark-background  pt-4">
-    <section class="sisters container">
+    <section class="sisters container pt-4 pb-4">
       <div class="row">
-      <div class="col-12 col-lg-6">
-      <h1>App</h1>
+      <div class="col-12 col-lg-6 mb-4">
+   
+     
+      <!-- Card -->
+<div class="card">
+
+  <!-- Card image -->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+      alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title">TRADE</h4>
+    <!-- Text -->
+    <p class="card-text">Trade App: Connecting the hospitality community</p>
+    <p class="card-text">It’s never been more essential for hospitality professionals to be connected and access support. The new trade app is an ecosystem of resources, perks and tools, designed exclusively for the millions of individuals that dedicate their lives to hospitality.</p>
+    <p class="card-text"><a href="www.instagram.com/theblackbooksoho/">Find out more at tradehospitality.co.uk</a></p>
+    
+  </div>
+
+</div>
+<!-- Card -->
+      </div>
+     
+      <div class="col-6 col-lg-3">
+    
+      <!-- Card -->
+<div class="card">
+
+<!-- Card image -->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    alt="Card image cap">
+  <a href="https://www.blandford-comptoir.com">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+
+<!-- Card content -->
+<div class="card-body">
+
+  <!-- Title -->
+  <h4 class="card-title">Blandford Comptoir</h4>
+ 
+  
+</div>
+
+</div>
+<!-- Card -->
+      <!-- Card -->
+<div class="card mt-4">
+
+<!-- Card image -->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    alt="Card image cap">
+  <a href="https://comptoir-cafe-and-wine.co.uk">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+
+<!-- Card content -->
+<div class="card-body">
+
+  <!-- Title -->
+  <h4 class="card-title">Comptoir Café & Wine</h4>
+ 
+
+</div>
+
+</div>
+<!-- Card -->
       </div>
       <div class="col-6 col-lg-3">
-      <div class="">
-      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
-      </div>
-      <div class="">
-      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
-      </div>
-      </div>
-      <div class="col-6 col-lg-3">
-      <div class="">
-      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
-      </div>
-      <div class="">
-      <img src="http://localhost:8888/BlackBook/wp-content/uploads/2020/08/AdobeStock_261687458-scaled.jpeg" class="img-fluid" alt="">
-      </div>
+      
+      <!-- Card -->
+<div class="card">
+
+<!-- Card image -->
+<div class="view overlay">
+  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    alt="Card image cap">
+  <a href="https://www.cabotte.co.uk">
+    <div class="mask rgba-white-slight"></div>
+  </a>
+</div>
+
+<!-- Card content -->
+<div class="card-body">
+
+  <!-- Title -->
+  <h4 class="card-title">Cabotte</h4>
+  
+  
+
+</div>
+
+</div>
+<!-- Card -->
+<!-- Card -->
+<div class="card mt-4">
+
+  <!-- Card image -->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+      alt="Card image cap">
+    <a href="https://www.greenwichkitchen.com">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title">GK Pizza + Bar</h4>
+  
+   
+  </div>
+
+</div>
+<!-- Card -->
       </div>
       </div>
     </section>
