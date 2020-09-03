@@ -22,9 +22,9 @@
 
   <!-- Card image -->
   <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    <img class="card-img-top" src="http://blackbooksoho.co.uk/wp-content/uploads/2020/09/appImage.png"
       alt="Card image cap">
-    <a href="#!">
+    <a href="http://tradehospitality.co.uk">
       <div class="mask rgba-white-slight"></div>
     </a>
   </div>
@@ -37,7 +37,7 @@
     <!-- Text -->
     <p class="card-text">Trade App: Connecting the hospitality community</p>
     <p class="card-text">It’s never been more essential for hospitality professionals to be connected and access support. The new trade app is an ecosystem of resources, perks and tools, designed exclusively for the millions of individuals that dedicate their lives to hospitality.</p>
-    <p class="card-text"><a href="www.instagram.com/theblackbooksoho/">Find out more at tradehospitality.co.uk</a></p>
+    <p class="card-text"><a href="http://tradehospitality.co.uk">Find out more at tradehospitality.co.uk</a></p>
     
   </div>
 
@@ -52,7 +52,7 @@
 
 <!-- Card image -->
 <div class="view overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/BC.jpg"
     alt="Card image cap">
   <a href="https://www.blandford-comptoir.com">
     <div class="mask rgba-white-slight"></div>
@@ -75,7 +75,7 @@
 
 <!-- Card image -->
 <div class="view overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/Cafe.jpg"
     alt="Card image cap">
   <a href="https://comptoir-cafe-and-wine.co.uk">
     <div class="mask rgba-white-slight"></div>
@@ -101,7 +101,7 @@
 
 <!-- Card image -->
 <div class="view overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/cab.jpg"
     alt="Card image cap">
   <a href="https://www.cabotte.co.uk">
     <div class="mask rgba-white-slight"></div>
@@ -125,7 +125,7 @@
 
   <!-- Card image -->
   <div class="view overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/GK.jpg"
       alt="Card image cap">
     <a href="https://www.greenwichkitchen.com">
       <div class="mask rgba-white-slight"></div>
@@ -211,37 +211,37 @@
 
 
 
-<div class="">
+  <div class="">
 
-	<div class="row datefield">
-    <div class="col-md-6">
-    <div class="md-form mb-0">
+    <div class="row datefield">
+      <div class="col-md-6">
+      <div class="md-form mb-0">
 
-      <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" class="form-control">
-      <label for="mce-BIRTHDAY-day" class="mdbInput">DD </label>
-</div>
+        <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" class="form-control">
+        <label for="mce-BIRTHDAY-day" class="mdbInput">DD </label>
   </div>
-<div class="col-md-6">
-<div class="md-form mb-0">
-
-    <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" class="form-control">
-    <label for="mce-BIRTHDAY-month" class="mdbInput">MM</label>
-</div>
-</div>
-<p class="">BIRTHDAY</p>
-	</div>
-</div>	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64ab03f3af339dfeb72f5e5fe_12fa2e0fcf" tabindex="-1" value=""></div>
-    <div class="clear">
-      <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
-</form>
-</div>
+  <div class="col-md-6">
+  <div class="md-form mb-0">
 
-<!--End mc_embed_signup-->
+      <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" class="form-control">
+      <label for="mce-BIRTHDAY-month" class="mdbInput">MM</label>
+  </div>
+  </div>
+  <p class="">BIRTHDAY</p>
+    </div>
+  </div>	<div id="mce-responses" class="clear">
+      <div class="response" id="mce-error-response" style="display:none"></div>
+      <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64ab03f3af339dfeb72f5e5fe_12fa2e0fcf" tabindex="-1" value=""></div>
+      <div class="clear">
+        <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+
+    <!--End mc_embed_signup-->
 
 
 
@@ -251,7 +251,7 @@
     </div>
 
 
-<!--Section: Contact v.2-->
+    <!--Section: Contact v.2-->
 
       </div>
       <!-- Grid column -->
