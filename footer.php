@@ -264,13 +264,13 @@
         <!-- Links -->
         <h2 class="h3-responsive font-weight-bold my-4">OPENING TIMES</h2>
     <!--Section description-->
-    <p class="no-line-break">Monday: Closed<p>
-    <p class="no-line-break">Tuesday: 5pm - 1am<p>
-    <p class="no-line-break">Wednesday:  5pm - 1am<p>
-    <p class="no-line-break">Thursday: 5pm - 3am<p>
-    <p class="no-line-break">Friday: 5pm - 3am<p>
-    <p class="no-line-break">Saturday 5pm - 3am<p>
-    <p class="no-line-break">Sunday: Closed<p>
+    <p class="no-line-break">Monday: <?php echo get_theme_mod('monday', 'Closed'); ?><p>
+    <p class="no-line-break">Tuesday: <?php echo get_theme_mod('tuesday', 'Closed'); ?><p>
+    <p class="no-line-break">Wednesday:  <?php echo get_theme_mod('wednesday', 'Closed'); ?><p>
+    <p class="no-line-break">Thursday: <?php echo get_theme_mod('thursday', 'Closed'); ?><p>
+    <p class="no-line-break">Friday: <?php echo get_theme_mod('friday', 'Closed'); ?><p>
+    <p class="no-line-break">Saturday <?php echo get_theme_mod('saturday', 'Closed'); ?><p>
+    <p class="no-line-break">Sunday: <?php echo get_theme_mod('sunday', 'Closed'); ?><p>
       </div>
       <!-- Grid column -->
 
@@ -304,12 +304,12 @@
           <a href="http://blackbooksoho.co.uk/careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Prvicy Policy</a>
+          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Privacy Policy</a>
           </li>
           <li>  
-          <a href="facebook.com/The-Black-Book-Soho-220715369254758"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://www.facebook.com/The-Black-Book-Soho-220715369254758"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           <a href="https://twitter.com/blackbooksoho"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="www.instagram.com/theblackbooksoho/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://www.instagram.com/theblackbooksoho/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           </li>
           
         </ul>
@@ -327,6 +327,7 @@
   <!-- Copyright -->
   <div class="text-center py-3 black-background">A 
     <a href="https://twitter.com/blackbooksoho"> Cloudsdale</a> Website
+    <h2>test</h2><?php echo get_theme_mod('monday', 'Closed'); ?>
   </div>
   <!-- Copyright -->
 
