@@ -2680,7 +2680,7 @@ body.logged-in nav{margin-top:32px}
 body{background-repeat:no-repeat;background-attachment:fixed;background-size:cover}
 .top-nav-collapse{background:#231f20 !important}
 .navbar{background:#231f20}
-.navbar-brand img{max-width:150px;max-height:auto}
+.navbar-brand img{width:150px;max-height:auto}
 #full-logo{-o-object-fit:contain;object-fit:contain}
 .page{margin:0;padding-top:0}
 .navbar-toggler{background-color:transparent !important}

@@ -18,12 +18,14 @@
     <!--Grid row-->
     <div class="row wow fadeIn">
       <div class="white-content-box text-center">
-      <h1><?php the_field('welcome_title'); ?></h1>
+  
+      <!--
+        <h1><?php the_field('welcome_title'); ?></h1>
       <p><?php the_field('welcome_body'); ?></p>
       <a href="http://blackbooksoho.co.uk/book/"><button type="button" class="btn btn-primary waves-effect waves-light">Book A Table</button></a>
 
       
-
+-->
       </div>
       
     </div>
@@ -141,5 +143,5 @@
     </div>
     </div>
 </main>
-<?php get_template_part( 'template-parts/banner', 'page' ); ?>
+
 <?php get_footer(); ?>
