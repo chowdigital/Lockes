@@ -27,11 +27,11 @@ body {
 // change Navbar color on scroll 
 
 .top-nav-collapse {
-    background: $black-base!important;
+    background: $green-base!important;
 }
 
 .navbar {
-background: $black-base;
+background: $green-base;
 }
     @include media-breakpoint-up(md) {
         .navbar {
@@ -144,12 +144,12 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 
 .white-content-box {
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color:rgba(0, 36, 35, 0.8);
     width: 100%;
     padding: 2rem;
-    -webkit-box-shadow: 0 0 0 1px #e5e5e5 inset;
-    box-shadow: 0 0 0 1px #fff inset;
-    border: 1rem solid rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 0 1px $yellow-base inset;
+    box-shadow: 0 0 0 1px $yellow-base inset;
+    border: 1rem solid rgba(0, 36, 35, 0.8);
     color: #fff;
 }
 @include media-breakpoint-up(lg) {
@@ -175,11 +175,11 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
 }
 
 .menu-content-box {
-    background-color: $black-base;
+    background-color: $green-base;
     padding: 2rem;
-    -webkit-box-shadow: 0 0 0 1px #e5e5e5 inset;
-    box-shadow: 0 0 0 1px #fff inset;
-    border: 1rem solid $black-base;
+    -webkit-box-shadow: 0 0 0 1px $yellow-base inset;
+    box-shadow: 0 0 0 1px $yellow-base inset;
+    border: 1rem solid $green-base;
     color: #fff;
 }
 
@@ -193,7 +193,7 @@ footer {
     margin-top: 0;
 }
 .dark-background {
-    background: $black-base;
+    background: $green-base;
 }
 .black-background {
     margin-top:2em;

@@ -71,7 +71,7 @@
 
   <div class="container">
     <div class="row col-lg-6 offset-lg-3">
-      <img id="full-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/TBB_Full_Logo_Dark.png" alt="Black Book Soho Logo">
+      <img id="full-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" alt="Black Book Soho Logo">
     </div>
   </div>
 </main><!-- #main -->

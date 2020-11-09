@@ -12,140 +12,7 @@
 ?>
 <!-- Footer -->
 <footer class="page-footer font-small dark-background  pt-4">
-    <section class="sisters container pt-4 pb-4">
-      <div class="row">
-      <div class="col-12 col-lg-6 mb-4">
-   
-     
-      <!-- Card -->
-<div class="card">
 
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="http://blackbooksoho.co.uk/wp-content/uploads/2020/09/appImage.png"
-      alt="Card image cap">
-    <a href="http://tradehospitality.co.uk">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">TRADE</h4>
-    <!-- Text -->
-    <p class="card-text">Trade App: Connecting the hospitality community</p>
-    <p class="card-text">It’s never been more essential for hospitality professionals to be connected and access support. The new trade app is an ecosystem of resources, perks and tools, designed exclusively for the millions of individuals that dedicate their lives to hospitality.</p>
-    <p class="card-text"><a href="http://tradehospitality.co.uk">Find out more at tradehospitality.co.uk</a></p>
-    
-  </div>
-
-</div>
-<!-- Card -->
-      </div>
-     
-      <div class="col-6 col-lg-3">
-    
-      <!-- Card -->
-<div class="card">
-
-<!-- Card image -->
-<div class="view overlay">
-  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/BC.jpg"
-    alt="Card image cap">
-  <a href="https://www.blandford-comptoir.com">
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
-
-<!-- Card content -->
-<div class="card-body">
-
-  <!-- Title -->
-  <h4 class="card-title">Blandford Comptoir</h4>
- 
-  
-</div>
-
-</div>
-<!-- Card -->
-      <!-- Card -->
-<div class="card mt-4">
-
-<!-- Card image -->
-<div class="view overlay">
-  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/Cafe.jpg"
-    alt="Card image cap">
-  <a href="https://comptoir-cafe-and-wine.co.uk">
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
-
-<!-- Card content -->
-<div class="card-body">
-
-  <!-- Title -->
-  <h4 class="card-title">Comptoir Café & Wine</h4>
- 
-
-</div>
-
-</div>
-<!-- Card -->
-      </div>
-      <div class="col-6 col-lg-3">
-      
-      <!-- Card -->
-<div class="card">
-
-<!-- Card image -->
-<div class="view overlay">
-  <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/cab.jpg"
-    alt="Card image cap">
-  <a href="https://www.cabotte.co.uk">
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
-
-<!-- Card content -->
-<div class="card-body">
-
-  <!-- Title -->
-  <h4 class="card-title">Cabotte</h4>
-  
-  
-
-</div>
-
-</div>
-<!-- Card -->
-<!-- Card -->
-<div class="card mt-4">
-
-  <!-- Card image -->
-  <div class="view overlay">
-    <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/GK.jpg"
-      alt="Card image cap">
-    <a href="https://www.greenwichkitchen.com">
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-
-    <!-- Title -->
-    <h4 class="card-title">GK Pizza + Bar</h4>
-  
-   
-  </div>
-
-</div>
-<!-- Card -->
-      </div>
-      </div>
-    </section>
 
   <!-- Footer Links -->
   <div class="container text-md-left">
@@ -327,7 +194,6 @@
   <!-- Copyright -->
   <div class="text-center py-3 black-background">A 
     <a href="https://twitter.com/blackbooksoho"> Cloudsdale</a> Website
-    <h2>test</h2><?php echo get_theme_mod('monday', 'Closed'); ?>
   </div>
   <!-- Copyright -->
 
