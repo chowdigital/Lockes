@@ -20,7 +20,7 @@
   <div class="row wow fadeIn">
     <?php
     // The Query
-    $the_query = new WP_Query( 'cat=1&posts_per_page=24' );
+    $the_query = new WP_Query( 'cat=3&posts_per_page=24' );
     //posts_per_page=5'
 
 

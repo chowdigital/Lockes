@@ -10,107 +10,45 @@
  */
 
 ?>
+		 <div class="google-reviews-class" id="google-reviews"></div>
+		 <script>
+jQuery(document).ready(function($) {
+   $("#google-reviews").googlePlaces({
+  
+   });
+
+  
+
+});
+</script>
 <!-- Footer -->
 <footer class="page-footer font-small dark-background  pt-4">
 
-
   <!-- Footer Links -->
-  <div class="container text-md-left">
+  <div class="container-fluid text-md-left">
 
     <!-- Grid row -->
     <div class="row">
 
-      <!-- Grid column -->
+      <!-- Grid column 
       <div class="col-lg-6 mt-lg-0 mt-3 white-content-box">
 
         <!-- Content -->
         
-        <!--Section heading-->
+        <!--Section heading
     <h2 class="h1-responsive font-weight-bold my-4">SIGN UP TO OUR NEWSLETTER</h2>
-    <!--Section description-->
+    <!--Section description-
     <p class="col-md-11">News and special events</p>
 
     <div class="row">
 
 
 
-    <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://blackbooksoho.us17.list-manage.com/subscribe/post?u=64ab03f3af339dfeb72f5e5fe&amp;id=12fa2e0fcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-      <div class="row">
-            <div class="md-form mb-0">
-           
-          <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-          <label for="mce-EMAIL" class="mdbInput fc-wide">Email <span class="asterisk">*</span></label>
-          </div>
-      </div>
-<div class="row">
-  <div class="col-md-6">
-        <div class="md-form mb-0">
-        <input type="text" value="" name="FNAME" class="required form-control" id="mce-FNAME">
-              <label for="mce-FNAME" class="mdbInput">First Name  <span class="asterisk">*</span></label>
-           
-            </div>
-  </div>
-  <div class="col-md-6">
-        <div class="md-form mb-0">
-       
-        <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
-        <label for="mce-LNAME"  class="mdbInput">Last Name </label>
-      </div>
-  </div>
-</div>
-
-<div class="row">
-  
-<div class="md-form mb-0">
-
-        
-  <input type="text" name="PHONE" class="form-control" value="" id="mce-PHONE">
-  <label for="mce-PHONE" class="mdbInput fc-wide">Phone Number </label>
-</div>
-</div>
-
-
-
-
-
-
-
-  <div class="">
-
-    <div class="row datefield">
-      <div class="col-md-6">
-      <div class="md-form mb-0">
-
-        <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" class="form-control">
-        <label for="mce-BIRTHDAY-day" class="mdbInput">DD </label>
-  </div>
-    </div>
-  <div class="col-md-6">
-  <div class="md-form mb-0">
-
-      <input class="birthday " type="text" pattern="[0-9]*" value="" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" class="form-control">
-      <label for="mce-BIRTHDAY-month" class="mdbInput">MM</label>
-  </div>
-  </div>
-  <p class="">BIRTHDAY</p>
-    </div>
-  </div>	<div id="mce-responses" class="clear">
-      <div class="response" id="mce-error-response" style="display:none"></div>
-      <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64ab03f3af339dfeb72f5e5fe_12fa2e0fcf" tabindex="-1" value=""></div>
-      <div class="clear">
-        <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-  </form>
-  </div>
-
-    <!--End mc_embed_signup-->
-
-
+<!-- BEGIN TalkBox form embed code https://talkbox.impactapp.com.au -->
+<!-- you can set data-width/data-height yourself for more control over iframe size (ie. data-height="1200") 
+<div class="sbx-embedded-form" data-sbx-id="E1EGXKfx9PKw6uYNWAL7-w==" data-width="auto" data-height="auto"></div>
+<script type="text/javascript" src="https://d3kivyesuae41d.cloudfront.net/forms/E1EGXKfx9PKw6uYNWAL7-w==/form.js" async="async" defer="defer"></script>
+<!-- END TalkBox form embed code https://talkbox.impactapp.com.au -
 
 
         
@@ -118,7 +56,7 @@
     </div>
 
 
-    <!--Section: Contact v.2-->
+    <!--Section: Contact v.2-
 
       </div>
       <!-- Grid column -->
@@ -145,38 +83,37 @@
       <div class="col-sm-6 col-lg-3">
 
         <!-- Links -->
-        <h2 class="h3-responsive font-weight-bold my-4">BLACK BOOK</h2>
+        <h2 class="h3-responsive font-weight-bold my-4">lockes</h2>
     <!--Section description-->
    
   
 
 
 
-
    
         <ul class="list-unstyled">
           <li>
-          <i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;23 Frith Street, Soho 
+          <i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;32 Great Queen St <br/> Holborn, London, WC2B 5AA
+
           </li>
           <li>
-              <a href="https://www.google.com/maps/place/TRADE+Soho/@51.5133559,-0.1333751,17z/data=!3m1!4b1!4m5!3m4!1s0x48760529ea75a7b3:0x89287c620f263591!8m2!3d51.5133559!4d-0.1311864?shorturl=1"><i class="fas fa-map-marked-alt mt-4"></i>&nbsp;&nbsp;View on Google Maps </a>
+              <a href="https://www.google.com/maps/place/32+Great+Queen+St,+Holborn,+London+WC2B+5AA/@51.5153099,-0.1237209,17z/data=!4m5!3m4!1s0x48761b34c96beb41:0xae4e2d4c4ba47e9!8m2!3d51.5153278!4d-0.1215811"><i class="fas fa-map-marked-alt mt-4"></i>&nbsp;&nbsp;View on Google Maps </a>
           </li>
           <li>
-          <a href="tel:+442074341724"><i class="fas fa-phone mt-4"></i>&nbsp;&nbsp;020 7434 1724 </a>
+          <a href="tel:+442080915609"><i class="fas fa-phone mt-4"></i>&nbsp;&nbsp;020 8091 5609 </a>
           </li>
           <li>
-          <a href="mailto:info@blackbooksoho.co.uk"><i class="fas fa-envelope mt-4"></i>&nbsp;&nbsp;info@blackbooksoho.co.uk</a>
+          <a href="mailto:coventgarden@lockes.co.uk"><i class="fas fa-envelope mt-4"></i>&nbsp;&nbsp;coventgarden@lockes.co.uk</a>
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
+          <a href="careers"><i class="fa fa-rocket mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Careers</a> 
           </li>
           <li>
-          <a href="http://blackbooksoho.co.uk/privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Privacy Policy</a>
+          <a href="privacy-policy"><i class="fa fa-lock mt-4" aria-hidden="true"></i>&nbsp;&nbsp;Privacy Policy</a>
           </li>
           <li>  
-          <a href="https://www.facebook.com/The-Black-Book-Soho-220715369254758"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="https://twitter.com/blackbooksoho"><i class="fab fa-twitter fa-2x mt-4"></i> &nbsp;&nbsp;</a>
-          <a href="https://www.instagram.com/theblackbooksoho/"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="coventgarden@lockes.co.uk"><i class="fab fa-facebook-square fa-2x mt-4"></i> &nbsp;&nbsp;</a>
+          <a href="https://www.instagram.com/lockesbar/?igshid=76tt18go7ay7"><i class="fab fa-instagram fa-2x mt-4"></i> &nbsp;&nbsp;</a>
           </li>
           
         </ul>
@@ -193,7 +130,7 @@
 
   <!-- Copyright -->
   <div class="text-center py-3 black-background">A 
-    <a href="https://twitter.com/blackbooksoho"> Cloudsdale</a> Website
+    <a href="https://seancloudsdale.com"> Cloudsdale</a> Website
   </div>
   <!-- Copyright -->
 

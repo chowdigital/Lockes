@@ -1,17 +1,68 @@
 // Typography
+@font-face {
+  font-family: suisseintl-thin;
+
+  src: url('assets/fonts/SuisseIntlMonoThin.eot');
+  src: url('assets/fonts/SuisseIntlMonoThin.eot') format("embedded-opentype"), url('assets/fonts/SuisseIntlMonoThin.ttf') format("truetype"),
+      url('assets/fonts/SuisseIntlMonoThin.woff') format("woff"), url('assets/fonts/SuisseIntlMonoThin.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: suisseintl-regular;
+  src: url('assets/fonts/SuisseIntlMono-Regular.eot');
+  src: url('assets/fonts/SuisseIntlMono-Regular.eot') format("embedded-opentype"), url('assets/fonts/SuisseIntlMono-Regular.ttf') format("truetype"),
+      url('assets/fonts/SuisseIntlMono-Regular.woff') format("woff"), url('assets/fonts/SuisseIntlMono-Regular.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: johnston-medium;
+  src: url('assets/fonts/johnston_itc_medium-webfont.eot');
+  src: url('assets/fonts/johnston_itc_medium-webfont.eot') format("embedded-opentype"), url('assets/fonts/johnston_itc_medium-webfont.ttf') format("truetype"),
+      url('assets/fonts/johnston_itc_medium-webfont.woff') format("woff"), url('assets/fonts/johnston_itc_medium-webfont.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: suisseintl-bold;
+  src: url('assets/fonts/SuisseIntlMono-Bold.eot');
+  src: url('assets/fonts/SuisseIntlMono-Bold.eot') format("embedded-opentype"), url('assets/fonts/SuisseIntlMono-Bold.ttf') format("truetype"),
+      url('assets/fonts/SuisseIntlMono-Bold.woff') format("woff"), url('assets/fonts/SuisseIntlMono-Bold.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: lockes;
+  src: url('assets/fonts/lockes.eot');
+  src: url('assets/fonts/lockes.eot') format("embedded-opentype"), url('assets/fonts/lockes.ttf') format("truetype"),
+      url('assets/fonts/lockes.woff') format("woff"), url('assets/fonts/lockes.svg') format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
 
 // General properties
 body, p {
-  font-family: apertura, sans-serif;
+  font-family: Questrial,sans-serif;
   font-style: normal;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: din-condensed, sans-serif;
+h1, h2, h3, h4, h5, h6, .menu-item a, .btn{
+  font-family: suisseintl-regular, sans-serif;
   font-style: normal;
+  letter-spacing: 1px;
   font-weight: 400;
+  text-transform: lowercase;
 }
+
 
 // Blockquote
 .blockquote {
@@ -64,3 +115,5 @@ h1, h2, h3, h4, h5, h6 {
 strong {
   font-weight: 500;
 }
+
+

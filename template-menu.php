@@ -18,8 +18,8 @@
       
 
 
-      <div class="menu-content-box col-12 col-lg-6 text-center">
-	<header class="entry-header">
+      <div class="menu-content-box col-12 col-lg-6 text-left">
+	<header class="entry-header mb-4">
 		<?php the_title( '<h1>', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();

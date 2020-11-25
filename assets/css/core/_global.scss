@@ -103,7 +103,7 @@
 
 // Links
 a {
-  color: $link-color;
+  color: $yellow-base;
   text-decoration: none;
   cursor: pointer;
   transition: $transition-basic;
@@ -115,7 +115,7 @@ a {
   &.disabled,
   &:disabled {
     &:hover {
-      color: $link-color;
+      color: $yellow-base;
     }
   }
 }

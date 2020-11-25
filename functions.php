@@ -166,6 +166,7 @@ function wordpress_bootstrap_starter_theme_scripts() {
     wp_enqueue_script( 'Tether', get_template_directory_uri() . '/assets/js/popper.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'Bootstrap', get_template_directory_uri() . '/assets/js/vendor.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'MDB', get_template_directory_uri() . '/assets/js/mdb.min.js', array(), '1.0.0', true );
+
 		
 
 
