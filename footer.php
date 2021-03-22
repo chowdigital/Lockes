@@ -10,45 +10,43 @@
  */
 
 ?>
-		 <div class="google-reviews-class" id="google-reviews"></div>
-		 <script>
-jQuery(document).ready(function($) {
-   $("#google-reviews").googlePlaces({
-  
-   });
+<div class="container-fluid">
 
-  
-
-});
-</script>
+<div class="row text-center pb-5">
+<h3>google reviews - <a href="https://www.google.com/search?client=firefox-b-d&q=lockes+bar#lrd=0x48761bf8f4b95767:0xdc47def86f0e0597,1,,,">see all</a></h3>
+</div>
+<div class="container pt-6 pb-6  ">
+<?php do_action( 'wprev_pro_plugin_action', 1 ); ?>
+</div>
+</div>
 <!-- Footer -->
 <footer class="page-footer font-small dark-background  pt-4">
-
+<div class="container">
   <!-- Footer Links -->
   <div class="container-fluid text-md-left">
 
     <!-- Grid row -->
-    <div class="row">
+    <div class="row container">
 
-      <!-- Grid column 
+      <!-- Grid column -->
       <div class="col-lg-6 mt-lg-0 mt-3 white-content-box">
 
         <!-- Content -->
         
-        <!--Section heading
+        <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold my-4">SIGN UP TO OUR NEWSLETTER</h2>
-    <!--Section description-
-    <p class="col-md-11">News and special events</p>
+    <!--Section description-->
+ 
 
     <div class="row">
 
 
 
 <!-- BEGIN TalkBox form embed code https://talkbox.impactapp.com.au -->
-<!-- you can set data-width/data-height yourself for more control over iframe size (ie. data-height="1200") 
+<!-- you can set data-width/data-height yourself for more control over iframe size (ie. data-height="1200") -->
 <div class="sbx-embedded-form" data-sbx-id="E1EGXKfx9PKw6uYNWAL7-w==" data-width="auto" data-height="auto"></div>
 <script type="text/javascript" src="https://d3kivyesuae41d.cloudfront.net/forms/E1EGXKfx9PKw6uYNWAL7-w==/form.js" async="async" defer="defer"></script>
-<!-- END TalkBox form embed code https://talkbox.impactapp.com.au -
+<!-- END TalkBox form embed code https://talkbox.impactapp.com.au -->
 
 
         
@@ -56,7 +54,7 @@ jQuery(document).ready(function($) {
     </div>
 
 
-    <!--Section: Contact v.2-
+    <!--Section: Contact v.2-->
 
       </div>
       <!-- Grid column -->
@@ -127,7 +125,7 @@ jQuery(document).ready(function($) {
 
   </div>
   <!-- Footer Links -->
-
+  </div>
   <!-- Copyright -->
   <div class="text-center py-3 black-background">A 
     <a href="https://seancloudsdale.com"> Cloudsdale</a> Website
