@@ -44,8 +44,8 @@
 
 
 
-<div class="container-fluid">
-<div class="container pt-6 pb-6 z-depth-3">
+<div class="container">
+<div class="pt-6 pb-6 z-depth-3">
 <div class="menu-content-box col-12">
 <h2>lockes on instagram</h2>
 <?php  echo do_shortcode( '[instagram-feed]' ); ?>
