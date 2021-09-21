@@ -42,10 +42,17 @@
 </div>
 <!-- Full Page Intro --> 
 
-
+    <section>
+      <div class="row pt-3 pb-3">
+        <div class="col-6 offset-3 col-sm-4 offset-sm-4 col-lg-2 offset-lg-5">
+        
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/video/Lockes_logo_Giff_9.gif" alt="">
+        </div>
+      </div>
+    <section>
 
 <div class="container">
-<div class="pt-6 pb-6 z-depth-3">
+<div class="z-depth-3">
 <div class="menu-content-box col-12">
 <h2>lockes on instagram</h2>
 <?php  echo do_shortcode( '[instagram-feed]' ); ?>

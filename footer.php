@@ -10,6 +10,15 @@
  */
 
 ?>
+<section>
+      <div class="row pt-3 pb-3">
+        <div class="col-6 offset-3 col-sm-4 offset-sm-4 col-lg-2 offset-lg-5">
+        
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/video/Lockes_logo_Giff_9.gif" alt="">
+        </div>
+      </div>
+    <section>
+      
 <div class="container-fluid">
 
 <div class="row text-center pb-5">
