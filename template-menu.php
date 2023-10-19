@@ -12,13 +12,10 @@
   <div class="container pt-6 pb-6">
     <div class="row z-depth-3">
       
-    <div class="menu-image-box col-12 col-lg-6" style="background-image: url(<?php the_field('menu_image');  ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
-      
-      </div>
-      
+   
 
 
-      <div class="menu-content-box col-12 col-lg-6 text-left">
+      <div class="menu-content-box col-12 text-left">
 	<header class="entry-header mb-4">
 		<?php the_title( '<h1>', '</h1>' ); ?>
 	</header><!-- .entry-header -->
@@ -93,5 +90,4 @@ endwhile; else: ?>
 </div>
 </div>
 </main><!-- #main -->
-<?php get_template_part( 'template-parts/banner', 'page' ); ?>
 <?php get_footer(); ?>

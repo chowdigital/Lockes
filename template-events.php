@@ -1,4 +1,4 @@
-<?php /* Template Name: Events*/ get_header(); ?>
+<?php /* Template Name: Party Packages */ get_header(); ?>
 
   <div class="page-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
@@ -10,64 +10,55 @@
 
 
   <main id="primary" class="site-main container  pt-6 pb-6">
-  <div class="z-depth-3">
-  <div class="menu-content-box col-12">
+    <div class="party-content z-depth-3">
+    <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-  <header class="entry-header">
-  <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-  <!--Grid row-->
-  <div class="row wow fadeIn">
-    <?php
-    // The Query
-    $the_query = new WP_Query( 'cat=3&posts_per_page=24' );
-    //posts_per_page=5'
-
-
-    // The Loop
-        if ( $the_query->have_posts() ) {
-          while ( $the_query->have_posts() ) {
-            $the_query->the_post();
-            $category = get_the_category(); 
-            ?>		
-
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex flex-column">
-     
-
-            <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
-
-             
-            </div>
-
-            <div>
-            <h4 class="mb-3 font-weight-bold">
-                <strong><?php the_title(); ?></strong>
-            </h4>
-          
-          
-            <p class="grey-text"><?php the_excerpt(); ?></p>
-            </div>
-            <div class="mt-auto">
-            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-light">Find out More </button></a>
-            </div>
-        </div>
-        <!--Grid column-->
-
-      <?php
-      
-      $counter++;
-      } // end while
-      } // end if
-      wp_reset_postdata(); 
-      ?>
-     </div>
-    <!--Grid row-->
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+          the_content();
+          endwhile; else: ?>
+          <p>Sorry, no posts matched your criteria.</p>
+          <?php endif; ?>
+    </div>
+  <div class="party-packs">
+    <div class="party-pack-box z-depth-2">
+      <div id="milano-icon"></div>
+      <h2>APERITIVO MILANO</h2>
+      <p><small><?php the_field('milano_guests'); ?> Guests </small></p>
+      <p><?php the_field('milano_offer'); ?></p>
+      <h2>£<?php the_field('milano_price'); ?></h2>
+      <p><small>including service charge</small></p>
+   
 
     </div>
+    <div class="party-pack-box z-depth-2">
+    <div id="firenze-icon"></div>
+      <h2>APERITIVO FIRENZE</h2>
+      <p><small><?php the_field('firenze_guests'); ?> Guests </small></p>
+      <p><?php the_field('firenze_offer'); ?></p>
+      <h2>£<?php the_field('firenze_price'); ?></h2>
+      <p><small>including service charge</small></p>
     </div>
+    <div class="party-pack-box z-depth-2">
+    <div id="roma-icon"></div>
+    <h2>APERITIVO ROMA</h2>
+    <p><small><?php the_field('roma_guests'); ?> Guests </small></p>
+      <p><?php the_field('roma_offer'); ?></p>
+      <h2>£<?php the_field('roma_price'); ?></h2>
+      <p><small>including service charge</small></p>
+    </div>
+    <div class="party-pack-box z-depth-2">
+    <div id="napoli-icon"></div>
+    <h2>APERITIVO NAPOLI</h2>
+    <p><small><?php the_field('napoli_guests'); ?> Guests </small></p>
+      <p><?php the_field('napoli_offer'); ?></p>
+      <h2>£<?php the_field('napoli_price'); ?></h2>
+      <p><small>including service charge</small></p>
+    </div>
+
+  </div>
+  <p>Our packages are flexible and can be adapted to your needs.</p>
+
+<p>All food and drink contribute towards any minimum spend.</p>
 </main>
 
 

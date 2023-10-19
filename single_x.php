@@ -11,16 +11,16 @@ get_header();
 ?>
 
 
-<div class="post-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
+<div class="page-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
 <div class="mask gradient-custom" style="width: 100%; height: 100%;">
 
   </div>
 </div>
-		<main id="primary" class="site-main container pt-7">
+	<main id="primary" class="site-main container  pt-6 pb-6">
 		<div class="z-depth-3">
 		<div class="menu-content-box">
-			<div class="col-md-8 offset-md-2">
+		<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
 		<?php
 		while ( have_posts() ) :

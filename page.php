@@ -22,7 +22,7 @@ get_header();
 
   </div>
 </div>
-<main id="primary" class="site-main container  pt-6 pb-6">
+<main id="primary" class="site-main container pt-7">
   <div class="z-depth-3">
   <div class="menu-content-box">
 
@@ -40,8 +40,5 @@ get_header();
 </div>
 	</div>
 	</main><!-- #main -->
-	<?php get_template_part( 'template-parts/banner', 'page' ); ?>
 
-<?php
-
-get_footer();
+<?php get_footer(); ?>

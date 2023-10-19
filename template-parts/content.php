@@ -12,7 +12,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-<header class="entry-header pb-4">
+<header class="entry-header pb-4 pt-5">
 
 			<?php
 			if ( is_singular() ) :
