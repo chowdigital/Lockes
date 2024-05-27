@@ -3290,3 +3290,10 @@ ul li {
 	padding-bottom: 50%;
 	border: solid 1px #e7a649;
 }
+
+/* remove carafe from block */
+
+.wp-block-lockes-block-wine > p > :nth-child(4),
+.menu__carafe {
+	display: none;
+}

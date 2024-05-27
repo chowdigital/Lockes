@@ -78,7 +78,7 @@
 
             </div>
         </div>
-    </div>s
+    </div>
 
 
 </section>
